@@ -1,0 +1,5 @@
+/Users/sebastianbarry/Documents/Programming/Design Patterns/test/obj/Debug/net7.0/Design_Patterns.csproj.AssemblyReference.cache
+/Users/sebastianbarry/Documents/Programming/Design Patterns/test/obj/Debug/net7.0/Design_Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sebastianbarry/Documents/Programming/Design Patterns/test/obj/Debug/net7.0/Design_Patterns.AssemblyInfoInputs.cache
+/Users/sebastianbarry/Documents/Programming/Design Patterns/test/obj/Debug/net7.0/Design_Patterns.AssemblyInfo.cs
+/Users/sebastianbarry/Documents/Programming/Design Patterns/test/obj/Debug/net7.0/Design_Patterns.csproj.CoreCompileInputs.cache

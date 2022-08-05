@@ -1,0 +1,20 @@
+/Users/sebastianbarry/Documents/Programming/Design Patterns/src/obj/Debug/net7.0/DesignPatterns.csproj.AssemblyReference.cache
+/Users/sebastianbarry/Documents/Programming/Design Patterns/src/obj/Debug/net7.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sebastianbarry/Documents/Programming/Design Patterns/src/obj/Debug/net7.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/sebastianbarry/Documents/Programming/Design Patterns/src/obj/Debug/net7.0/DesignPatterns.AssemblyInfo.cs
+/Users/sebastianbarry/Documents/Programming/Design Patterns/src/obj/Debug/net7.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.csproj.AssemblyReference.cache
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.AssemblyInfo.cs
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/bin/Debug/net7.0/DesignPatterns
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/bin/Debug/net7.0/DesignPatterns.deps.json
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/bin/Debug/net7.0/DesignPatterns.runtimeconfig.json
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/bin/Debug/net7.0/DesignPatterns.dll
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/bin/Debug/net7.0/DesignPatterns.pdb
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.dll
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/refint/DesignPatterns.dll
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.pdb
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/DesignPatterns.genruntimeconfig.cache
+/Users/sebastianbarry/Documents/Programming/DesignPatterns/src/DesignPatterns/obj/Debug/net7.0/ref/DesignPatterns.dll
