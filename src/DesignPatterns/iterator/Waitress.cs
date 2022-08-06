@@ -2,31 +2,35 @@
 /*
  *
  * this class is what allows us to loop through the iterators
+ * it has no idea how the iterators hold the data. all it knows is that it
+ * can iteratate over the lower level data structures in a seamless way.
  *
  */
+using System.Collections.Generic;
 
-namespace Patterns 
+namespace Patterns
 {
     public class Waitress
     {
-        PancakeHouseMenu pancakeHouseMenu; 
-        DinerMenu dinerMenu;
+        // Menu iterfaces that we can adhere to.
+        Menu pancakeHouseMenu;
+        Menu dinerMenu;
 
-        public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) 
+        public Waitress(Menu pancakeHouseMenu, Menu dinerMenu)
         {
-            this.pancakeHouseMenu = pancakeHouseMenu; 
+            this.pancakeHouseMenu = pancakeHouseMenu;
             this.dinerMenu = dinerMenu;
         }
 
-        public void printMenu() 
+        public void printMenu()
         {
-            Iterator pancakeIterator = pancakeHouseMenu.createIterator();
-            Iterator dinerIterator = dinerMenu.createIterator();
+            IEnumerate<MenuItem> pancakeIterator = pancakeHouseMenu.createIterator();
+            IEnumerate<MenuItem> dinerMenuIterator = dinerMenu.createIterator();
 
             Console.Write("Menu: ------\n ------- \nBreakfast");
             printMenu(pancakeIterator); // method call 1
             Console.Write("\nLunch ----");
-            printMenu(dinerIterator); // method call 2
+            printMenu(dinerMenuIterator); // method call 2
         }
 
         /*
@@ -38,6 +42,7 @@ namespace Patterns
         {
             while(iterator.hasNext())
             {
+                // retrieve the menu item from the iterator.
                 MenuItem menuItem = iterator.next();
                 Console.Write(menuItem.getName() + " -- ");
                 Console.Write(menuItem.getPrice() + " -- ");

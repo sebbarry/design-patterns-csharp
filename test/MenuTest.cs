@@ -7,9 +7,9 @@ public class MenuTest
 {
     // test method 1
     [Fact]
-    public void TestMethod()
+    public void TestIterator()
     {
-        Console.Write("testing...");
+        Console.Write("Testing Iterator");
 
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
         DinerMenu dinerMenu = new DinerMenu();

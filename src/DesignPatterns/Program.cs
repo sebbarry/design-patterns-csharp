@@ -1,7 +1,6 @@
 ﻿
 using Patterns;
 
-
 namespace Patterns
 {
     public class Program

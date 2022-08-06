@@ -1,28 +1,32 @@
 
-namespace Patterns 
+/*
+
+this is our menuitem class - all menus contain.
+ */
+namespace Patterns
 {
-    public class MenuItem 
+    public class MenuItem
     {
 
         string name;
-        string description; 
+        string description;
         bool vegetarian;
         double price;
 
-        public MenuItem(string name, string description, bool vegetarian, double price) 
+        public MenuItem(string name, string description, bool vegetarian, double price)
         {
-            this.name = name; 
+            this.name = name;
             this.description = description;
             this.vegetarian = vegetarian;
             this.price = price;
         }
 
-        public string getName() 
+        public string getName()
         {
             return name;
         }
 
-        public string getDescription() 
+        public string getDescription()
         {
             return description;
 
@@ -32,7 +36,7 @@ namespace Patterns
             return price;
         }
 
-        public bool isVegetarian() 
+        public bool isVegetarian()
         {
             return vegetarian;
         }

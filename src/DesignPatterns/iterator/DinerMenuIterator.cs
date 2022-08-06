@@ -1,7 +1,14 @@
-namespace Patterns 
+/*
+
+ not in use.
+ replaced w/ IEnumerator (this is a C# sharp thing) .
+
+*/
+
+namespace Patterns
 {
     // make the iterator class here adhere to the iterator interface.
-    public class DinerMenuIterator : Iterator 
+    public class DinerMenuIterator : Iterator
     {
 
         // store menu items here.
@@ -10,13 +17,13 @@ namespace Patterns
         int position = 0;
 
         // constructor.
-        public DinerMenuIterator(MenuItem[] items) 
+        public DinerMenuIterator( MenuItem[] items )
         {
             this.items = items;
         }
 
         // next method
-        public MenuItem next() 
+        public MenuItem next()
         {
             MenuItem item = items[position];
             position++; // increment the position of the class as we iterate
@@ -24,16 +31,18 @@ namespace Patterns
         }
 
         // method to handle error checking.
-        public bool hasNext() 
+        public bool hasNext()
         {
-            if ( position >= items.Length || items[position] == null ) 
+            if ( position >= items.Length || items[position] == null )
             {
                 return false;
             }
-            else 
+            else
             {
                 return true;
             }
         }
+
+
     }
 }

@@ -1,3 +1,10 @@
+/*
+
+ not in use.
+ replaced w/ IEnumerator (this is a C# sharp thing) .
+
+*/
+
 
 namespace Patterns
 {
