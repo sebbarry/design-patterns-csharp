@@ -6,7 +6,7 @@
  * can iteratate over the lower level data structures in a seamless way.
  *
  */
-using System;
+using System.Collections;
 
 namespace Patterns
 {
@@ -24,20 +24,16 @@ namespace Patterns
 
         public void printMenu()
         {
-            System.Collections.IEnumerator pancakeIterator   =    pancakeHouseMenu.createIterator();
-            System.Collections.IEnumerator dinerMenuIterator =    dinerMenu.createIterator();
+            IEnumerator pancakeIterator   =    pancakeHouseMenu.createIterator();
+            IEnumerator dinerMenuIterator =    dinerMenu.createIterator();
 
             Console.Write("Menu: ------\n ------- \nBreakfast");
             printMenu(pancakeIterator); // method call 1
+
             Console.Write("\nLunch ----");
             printMenu(dinerMenuIterator); // method call 2
         }
 
-        /*
-         *
-         * Here we implement the second printeMenu method that allows us to loop through each item in the iterator.
-         *
-         */
         public static void printMenu(System.Collections.IEnumerator iterator)
         {
 

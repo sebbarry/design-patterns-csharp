@@ -40,10 +40,10 @@ namespace Patterns
 
 
         // return a new iterator.
-        public System.Collections.IEnumerator createIterator()
+        public IEnumerator createIterator()
         {
             // create a new diner menu iterator w/ parent classes diner menu items.
-            System.Collections.IEnumerator ie = menuItems.GetEnumerator();
+            IEnumerator ie = menuItems.GetEnumerator();
             return ie; //DinerMenuIterator(menuItems);
         }
 

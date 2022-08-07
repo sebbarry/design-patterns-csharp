@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 
 namespace Patterns
 {
@@ -25,6 +24,7 @@ namespace Patterns
 
         public void AddItem(string name, string description, bool isVegetarian, double price)
         {
+
             MenuItem menuItem = new MenuItem(name, description, isVegetarian, price);
             if ( numberOfItems >= MAX_ITEMS )
             {
@@ -36,6 +36,7 @@ namespace Patterns
                 menuItems.Add(menuItem);
                 numberOfItems++;
             }
+
         }
 
         public ArrayList getMenuItems()
@@ -43,9 +44,9 @@ namespace Patterns
             return menuItems;
         }
 
-        public System.Collections.IEnumerator createIterator()
+        public IEnumerator createIterator()
         {
-            System.Collections.IEnumerator ie = menuItems.GetEnumerator();
+            IEnumerator ie = menuItems.GetEnumerator();
             return ie;
         }
     }
