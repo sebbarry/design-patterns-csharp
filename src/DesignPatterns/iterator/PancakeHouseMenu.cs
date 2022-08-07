@@ -1,18 +1,20 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Patterns
 {
-    public class PancakeHouseMenu : Menu, IEnumerator
+    public class PancakeHouseMenu : Menu
     {
 
         static int MAX_ITEMS = 6;
         int numberOfItems = 0;
-        MenuItem[] menuItems;
+        ArrayList menuItems;
 
         public PancakeHouseMenu()
         {
 
-            this.menuItems = new MenuItem[MAX_ITEMS];
+            this.menuItems = new ArrayList();
 
             AddItem("K&B's Pancake Breakfast", "Pancakes with scrambled eggs and toast", true, 2.99);
             AddItem("Regualar Pancake Breakfast", "Pancakes with scrambled eggs and toas.", false, 2.99);
@@ -30,19 +32,20 @@ namespace Patterns
             }
             else
             {
-                menuItems[numberOfItems] = menuItem;
+                //menuItems[numberOfItems] = menuItem;
+                menuItems.Add(menuItem);
                 numberOfItems++;
             }
         }
 
-        public MenuItem[] getMenuItems()
+        public ArrayList getMenuItems()
         {
             return menuItems;
         }
 
-        public IEnumerator<MenuItem> createIterator()
+        public System.Collections.IEnumerator createIterator()
         {
-            IEnumerator<MenuItem> ie = (IEnumerator) menuItems.GetEnumerator();
+            System.Collections.IEnumerator ie = menuItems.GetEnumerator();
             return ie;
         }
     }

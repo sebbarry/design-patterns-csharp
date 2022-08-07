@@ -31,7 +31,7 @@ namespace Patterns
             return description;
 
         }
-        public  double getPrice()
+        public double getPrice()
         {
             return price;
         }
